@@ -1,0 +1,31 @@
+package mvc;
+
+public class Calculator {
+    public double multiply(String num1, String num2) {
+        Integer number1 = Integer.parseInt(num1);
+        Integer number2 = Integer.parseInt(num2);
+        double result = number1*number2;
+        return  result;
+    }
+
+    public double add(String num1, String num2) {
+        Integer number1 = Integer.parseInt(num1);
+        Integer number2 = Integer.parseInt(num2);
+        double result = number1+number2;
+        return  result;
+    }
+
+    public double subtract(String num1, String num2) {
+        Integer number1 = Integer.parseInt(num1);
+        Integer number2 = Integer.parseInt(num2);
+        double result = number1-number2;
+        return  result;
+    }
+
+    public double divide(String num1, String num2) {
+        Integer number1 = Integer.parseInt(num1);
+        Integer number2 = Integer.parseInt(num2);
+        double result = number1/number2;
+        return  result;
+    }
+}
